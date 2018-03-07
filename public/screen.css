@@ -8,7 +8,7 @@ body {
   font: 16px / 1 sans-serif;
 }
 
-.gray {
+/*.gray {
   background-color: rgb(238, 238, 238);
   border-top: 10px solid rgb(255, 30, 0);
   
@@ -47,6 +47,38 @@ a:active {
   color: black;
 }
 
+ul {
+padding: 0;
+list-style: none;
+}
+
+.mainnav {
+  background-color: rgb(238, 238, 238); 
+  border-top: 10px solid rgb(255, 30, 0);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leftnav {
+  margin: 1.5em ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  margin-left:1.5em;
+}
+
+.search{
+  margin-right: 1.5em;
+ 
+
+}
+
+
 .headline {
   text-align: center;
   margin: 0px 40%;
@@ -70,4 +102,9 @@ a:active {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
